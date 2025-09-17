@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
         <button>sign in</button>
         <div className='bars'>
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </div>
       </div>
     </div>

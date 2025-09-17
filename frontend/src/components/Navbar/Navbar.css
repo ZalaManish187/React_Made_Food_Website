@@ -55,23 +55,47 @@
 .bars{
     display: none;
 }
-@media(max-width:867px){
+@media (max-width:1050px) {
     .navbar .logo{
-    width:70px;
-}
+        width:140px;
+    }
     .navbar-menu{
-        display: none;
+        gap:20px;
+        font-size: 17px;
     }
     .navbar-right{
-    display:flex;
-    align-items: center;
-    gap:10px;
+        gap:30px;
     }
-    .navbar-search-icon{
-    width:20px;
+    .navbar-right img{
+        width:22px;
+    }
+    .navbar-right button{
+        padding:8px 25px;
+    }
 }
-.bars{
-    display: block;
+@media (max-width:900px) {
+    .navbar .logo{
+        width:120px;
+    }
+    .navbar-menu{
+        gap:15px;
+        font-size: 16px;
+    }
+    .navbar-right{
+        gap:20px;
+    }
+    .navbar-right img{
+        width:20px;
+    }
+    .navbar-right button{
+        padding:7px 20px;
+        font-size: 15px;
+    }
 }
-
+@media (max-width:750px) {
+   
+    .navbar-menu{
+       display: none;
+    }
+   
 }
